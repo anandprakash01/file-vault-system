@@ -1,0 +1,22 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "secure vault system",
+    "license": "ISC",
+    "author": "anand Prakash",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "dotenv": "^17.2.1",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.16.4",
+        "nodemon": "^3.1.10"
+    }
+}
